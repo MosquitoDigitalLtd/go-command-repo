@@ -1,0 +1,12 @@
+<!--
+name: run Frisby Unit tests
+description:  This command runs the frisby unit tests
+moreinfo: frisbyjs.com
+keywords: testing, nodejs
+author: Mosquito Digital
+authorinfo: http://www.mosquitodigital.co.uk
+-->
+<exec command="jasmine-node">
+<arg>.</arg>
+<arg>--junitreport</arg>
+</exec>
